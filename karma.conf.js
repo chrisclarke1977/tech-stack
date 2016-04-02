@@ -3,9 +3,11 @@ var webpack = require('webpack');
 module.exports = function (config) {
   config.set({
 
-    browsers: [ process.env.CONTINUOUS_INTEGRATION ? 'Phantom' : 'Phantom' ],
+    browsers: [ process.env.CONTINUOUS_INTEGRATION ? 'Firefox' : 'PhantomJS' ],
 
     singleRun: true,
+
+    plugins: ['karma-mocha', 'karma-phantomjs-launcher'],
 
     frameworks: [ 'mocha' ],
 
