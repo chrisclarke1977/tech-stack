@@ -1,12 +1,11 @@
 {
-  "name": "react-materialize",
-  "version": "0.14.2",
-  "description": "Material design components for react",
-  "main": "./lib/index.js",
+  "name": "tech-stack",
+  "version": "0.0.1",
+  "description": "Modern tech stack using react for 2016",
+  "main": "./src/index.js",
   "files": [
     "LICENSE",
-    "README.md",
-    "lib"
+    "README.md"
   ],
   "scripts": {
     "test": "npm run lint && karma start --single-run",
@@ -18,20 +17,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-materialize/react-materialize.git"
+    "url": "https://github.com/chrisclarke1977/tech-stack.git"
   },
   "keywords": [
-    "material",
-    "react",
-    "materializecss",
-    "react-component"
   ],
-  "author": "Isaiah Peng <issaria@gmail.com>",
+  "author": "Chris Clarke <chrisclarke1977@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-materialize/react-materialize/issues"
+    "url": "https://github.com/chrisclarke1977/tech-stack/issues"
   },
-  "homepage": "https://github.com/react-materialize/react-materialize",
+  "homepage": "https://github.com/chrisclarke1977/tech-stack",
   "devDependencies": {
     "babel-cli": "^6.1.18",
     "babel-core": "^6.1.21",
