@@ -9,7 +9,7 @@ import { Provider } from 'react-redux';
 import { browserHistory } from 'react-router';
 
 describe('Navigation', () => {
-    
+  const renderer = 'ok';     
   it('should render correctly', () => {
     return expect(renderer).to.be.ok;
   });
